@@ -18,5 +18,10 @@
     "prettier": "^3.0.3",
     "ts-jest": "^29.1.1",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^10.2.1",
+    "ts-node": "^10.9.1"
   }
 }
