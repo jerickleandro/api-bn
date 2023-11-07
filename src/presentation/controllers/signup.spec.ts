@@ -1,6 +1,6 @@
 import { SignupController } from "./signup";
 describe("Signup Controller", () => {
-  test("Deve retornar 400 caso o nome não tenha sido passado", () => {
+  test("Should return 400 if the name was not passed in the request", () => {
     const sut = new SignupController();
     const httpRequest = {
       body: {
@@ -15,7 +15,7 @@ describe("Signup Controller", () => {
     expect(httpResponse.body).toEqual(new Error("Missing param: name"));
   });
 
-  test("Deve retornar 400 caso o email não tenha sido passado", () => {
+  test("Should return 400 if the email was not passed in the request", () => {
     const sut = new SignupController();
     const httpRequest = {
       body: {
