@@ -7,7 +7,7 @@
     "test": "jest",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
-    "test": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
